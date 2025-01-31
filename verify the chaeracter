@@ -1,0 +1,26 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner in=new Scanner(System.in);
+	    
+		System.out.println("Enter a character");
+		char c=in.next().charAt(0);
+		if(Character.isLetter(c)==true)
+		{
+		    System.out.println("character is letter" + c);
+		    if(Character.isUpperCase(c)==true)
+		    System.out.println("it is a upper case letter" + c);
+		    if(Character.isLowerCase(c)==true)
+		    System.out.println("it is a lower case letter" + c);
+		}
+		else
+		{
+		 if(Character.isDigit(c)==true)
+		  System.out.println("it is a digit"   + c);
+		 else
+		  System.out.println("special character:" +  c);
+		  
+		}
+	}
+}
