@@ -1,0 +1,25 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner in=new Scanner(System.in);
+	    char ch1;
+	    System.out.println("Enter a character");
+		char c=in.next().charAt(0);
+		
+		    if(Character.isUpperCase(c)==true)
+		    {
+		        ch1=Character.toLowerCase(c);
+		        System.out.println(("the lowercase of " + c+ " is " + ch1));
+		        System.out.println("ASCII value of " +c +" is " +(int)ch1);
+	
+		    }
+		    
+		    if(Character.isLowerCase(c)==true)
+		    {
+		    ch1=Character.toUpperCase(c);
+		    System.out.println(("the upper case of :" +c+ " is:" +ch1));
+		    System.out.println("the ASCII value of" +c+ "is" +ch1);
+	     	}
+	}
+}
