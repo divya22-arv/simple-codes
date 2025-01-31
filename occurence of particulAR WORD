@@ -1,0 +1,30 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args)
+	{
+	    Scanner in=new Scanner(System.in);
+String st2="";
+char chr;
+char ch1;
+int f=0;
+System.out.println("enter the string");
+String st=in.nextLine();
+System.out.println("enter the string to find ");
+String st1=in.nextLine();
+st=st+" ";
+for(int i =0;i<st.length();i++)
+{
+    chr=st.charAt(i);
+    if(chr==' ')
+    {
+       if(st2.equals(st1))
+       f=f+1;
+       st2=""; 
+    }
+     else
+  st2=st2+chr;
+}
+System.out.println("frequency of word" + f );
+}
+}
