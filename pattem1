@@ -1,0 +1,18 @@
+public class Main
+{
+public static void main(String args[])
+{
+Scanner in =new Scanner(System.in)
+for(inti=0;i<5;i++)
+{
+for(intj=0;i<i;j++)
+{
+
+System.out.println(*);
+}
+}
+}}
+
+
+
+
