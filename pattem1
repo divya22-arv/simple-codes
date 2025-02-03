@@ -1,18 +1,20 @@
+import java.util.*;
 public class Main
 {
 public static void main(String args[])
 {
-Scanner in =new Scanner(System.in)
-for(inti=0;i<5;i++)
+Scanner in =new Scanner(System.in);
+System.out.println("the pattern is");
+for(int i=0;i<=5;i++)
 {
-for(intj=0;i<i;j++)
+for(int j=0;j<i;j++)
 {
-
-System.out.println(*);
+System.out.print("" + '*');
+}
+System.out.println();
 }
 }
-}}
-
+}
 
 
 
