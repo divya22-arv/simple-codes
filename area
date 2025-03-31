@@ -1,0 +1,16 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+double pie=3.14;
+double Area=0;
+Scanner in =new Scanner(System.in);
+
+		System.out.println("enter the radius");
+		int n=in.nextInt();
+		Area=2*pie *n;
+		System.out.println("aREA IS " + Area);
+	}
+}
+		
+	
