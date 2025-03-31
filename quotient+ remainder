@@ -1,0 +1,21 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+double pie=0;
+double Area=0;
+Scanner in =new Scanner(System.in);
+
+		System.out.println("enter the radius");
+		int n=in.nextInt();
+		System.out.println("enter the radius");
+		int k=in.nextInt();
+pie=n%k;
+Area=n/k;
+System.out.println("quotient" +pie);
+System.out.println("remainder" +Area);
+
+	}
+}
+		
+		
